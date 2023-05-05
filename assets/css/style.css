@@ -1,0 +1,72 @@
+.col-8 {
+  height: 100vh;
+  margin: 1rem 0;
+}
+.col-8 #box {
+  position: relative;
+  border-radius: 8px;
+}
+
+#sphere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.var-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 1rem 0;
+  width: 90%;
+}
+.var-inputs .inp {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F1F6F9;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.var-inputs input {
+  padding: 0.4rem;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #c2c1c1;
+}
+.var-inputs input:focus {
+  border: 1px solid #cf9999;
+}
+.var-inputs button {
+  padding: 0.4rem 1rem;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: #D8D8D8;
+  border: none;
+  transition: 0.25s;
+}
+.btn:hover {
+  background-color: #726d6d;
+  color: #fff;
+}
+.btn:focus {
+  box-shadow: 0 0 11px #ff6d6d;
+}
+
+.controller {
+  margin: 0.5rem;
+}
+.controller .btn-1, .controller .btn-2, .controller .btn-3, .controller .btn-4 {
+  margin: 0.3rem;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 0.4rem 1rem;
+}/*# sourceMappingURL=style.css.map */

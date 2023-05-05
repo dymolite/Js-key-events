@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main><div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="var-inputs">
+                    <div class="inp">
+                        <input type="number" name="" id="" placeholder="box width">
+                        <button class="btn" onclick="setBoxWidth(this)">Add</button>
+                    </div>
+                    <div class="inp">
+                        <input type="number" name="" id="" placeholder="box height">
+                        <button class="btn" onclick="setBoxHeight(this)">Add</button>
+                    </div>
+                    <div class="inp">
+                        <label for="">box color:</label>
+                        <input type="color" name="" id="">
+                        <button class="btn" onclick="setBoxColor(this)">Add</button>
+                    </div>
+                    <div class="inp">
+                        <label for="">border for box:</label>
+                        <input id="borderColor" type="color" name="" id="">
+                        <input type="number" name="" id="" placeholder="border">
+                        <button class="btn" onclick="setBorderColor(this)">Add</button>
+                    </div>
+                    <div class="inp">
+                        <input type="number" name="" id="" placeholder="sphere size">
+                        <button class="btn" onclick="setSphereSize(this)">Add</button>
+                    </div>
+                    <div class="inp">
+                        <label for="">Sphere color:</label>
+                        <input type="color" name="" id="">
+                        <button class="btn" onclick="setSphereColor(this)">Add</button>
+                    </div>
+                    <div class="inp">
+                        <input type="number" placeholder="steps" name="" id="steps">
+                        <button class="btn">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div id="box">
+                    <div id="sphere"></div>
+                </div>
+                <div class="controller text-center">
+                    <button class="btn btn-1" onclick="moveUp(this)">W</button>
+                    <div class="l-r">
+                        <button class="btn btn-2" onclick="moveLeft(this)">A</button>
+                        <button class="btn btn-4" onclick="moveDown(this)">S</button>
+                        <button class="btn btn-3" onclick="moveRight(this)">D</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
